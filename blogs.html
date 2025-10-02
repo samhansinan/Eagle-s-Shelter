@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="blogs.css">
+    <title>Eagle's Shelter</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div>
+                <div class="logo">
+                    <img src="image/logo.jpg" alt="Eagle's Shelter Logo">
+                </div>
+                
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+               <i class='bx bx-menu' id="menu-icon"></i>
+            </div>
+
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="#home">Blog</a>
+               
+                <a href="index.html#Contact" class="contact-btn">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Our blog</p>
+                <h1 class="hero-title">Blog Articles</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blog-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest Articles</h2>
+                    <p>Stay updated with the latest health tips, medical breakthroughs, and wellness advice from our expert healthcare professionals.</p>
+                </div>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="image/view3.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">March 15, 2024</span>
+                                <span>•</span>
+                                <span>Health Tips</span>
+                            </div>
+                            <h3>10 Essential Health Tips for a Better Lifestyle</h3>
+                            <p>Discover simple yet effective ways to improve your overall health and well-being with these proven lifestyle changes.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">March 12, 2024</span>
+                                <span>•</span>
+                                <span>Medical News</span>
+                            </div>
+                            <h3>Breakthrough in Cardiac Treatment Technology</h3>
+                            <p>Learn about the latest advancements in cardiac care and how new technologies are improving patient outcomes.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">March 10, 2024</span>
+                                <span>•</span>
+                                <span>Wellness</span>
+                            </div>
+                            <h3>Mental Health Awareness in Modern Society</h3>
+                            <p>Understanding the importance of mental health and effective strategies for maintaining psychological well-being.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">March 8, 2024</span>
+                                <span>•</span>
+                                <span>Nutrition</span>
+                            </div>
+                            <h3>The Role of Nutrition in Disease Prevention</h3>
+                            <p>Explore how proper nutrition can help prevent various diseases and contribute to long-term health benefits.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                    
+                
+                </div>
+            </div>
+        </section>
+
+
+    <footer class="footer" >
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Eagle's Shelter</h3>
+                <p>Providing strong care with gentle hearts since 1970. Your trusted partner in senior healthcare and wellness.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class='bx bx-book' ></i></a>
+                    
+                   
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#About">About Us</a></li>
+                    <li><a href="index.html#services">Our Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#medical">Medical Support</a></li>
+                    <li><a href="#wellness">Wellness Programs</a></li>
+                    <li><a href="#residential">Residential Care</a></li>
+                    <li><a href="#special">Special Care</a></li>
+                </ul>
+            </div>
+            <div class="footer-section" id="Contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class='bx bx-location-plus bx-burst' ></i> 123 Healthcare Ave, Medical District</li>
+                    <li><i class='bx bx-phone-call bx-tada' ></i>  (487) 384-8452</li>
+                    <li><i class='bx bx-envelope' ></i> info@eaglesshelter.com</li>
+                    <li>24/7 Emergency Care</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Eagle's Shelter. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    
+    
+    <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navMenu = document.getElementById("nav-menu");
+    const menuIcon = document.getElementById("menu-icon");
+
+
+    menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+
+        if (navMenu.classList.contains("show")) {
+        menuIcon.classList.remove("bx-menu");
+        menuIcon.classList.add("bx-x"); 
+        } else {
+            menuIcon.classList.remove("bx-x");
+            menuIcon.classList.add("bx-menu"); 
+        }
+    });
+    </script>
+</body>
+</html>
