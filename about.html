@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div>
+                <div class="logo">
+                    <img src="image/logo.jpg" alt="Eagle's Shelter Logo">
+                </div>
+                
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+               <i class='bx bx-menu' id="menu-icon"></i>
+            </div>
+
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="index.html#About">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="#home">Blog</a>
+               
+                <a href="index.html#Contact" class="contact-btn">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="about-section">
+        <div class="about">
+            <div class="about-container">
+            <h2>About</h2>
+            <p>
+                At Eagles’ Shelter Elders Care, we believe that growing old should be a graceful journey filled with care, comfort, and companionship. Established with the purpose of serving our elders with dignity and respect, we offer a safe and supportive environment where residents receive personalized care tailored to their physical, emotional, and social needs.
+Our dedicated team of caregivers and healthcare professionals work around the clock to ensure the highest standards of well-being. Beyond medical care, we focus on creating a homely atmosphere where elders can engage in recreational activities, build meaningful connections, and enjoy a sense of community.
+Whether it is assisted living, long-term care, or simply providing a friendly space for daily companionship, Eagles’ Shelter stands as a trusted haven for elders and their families.
+            </p>
+            </div>
+        </div>
+       
+  </div>
+
+    </section>
+
+
+   <section class="vision-mission">
+    <h2>Vision</h2>
+     <div class="vision">
+        <div class="vision-container">
+            <div class="vision-div">
+                <img src="image/view7.jpg" alt="view.12">
+            </div>
+            <p>
+                To create a compassionate and nurturing environment where every elder is respected, valued, and empowered to live with dignity, comfort, and joy.
+            </p>
+        </div>
+    </div>
+
+    <div class="mission">
+        <h2>Mission</h2>
+        <div class="mission-container">
+            
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente eveniet soluta neque culpa, pariatur corporis veritatis aliquid. Natus quibusdam minus modi quia eaque molestias alias quae est quo culpa maiores magnam laborum inventore accusantium cumque, doloribus iure? Praesentium, expedita molestias.</p>
+            
+             <div class="mission-div">
+                <img src="image/view13.jpg" alt="view13">
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+     <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navMenu = document.getElementById("nav-menu");
+    const menuIcon = document.getElementById("menu-icon");
+
+
+    menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+
+        if (navMenu.classList.contains("show")) {
+        menuIcon.classList.remove("bx-menu");
+        menuIcon.classList.add("bx-x"); 
+        } else {
+            menuIcon.classList.remove("bx-x");
+            menuIcon.classList.add("bx-menu"); 
+        }
+    });
+    </script>
+</body>
+</html>
