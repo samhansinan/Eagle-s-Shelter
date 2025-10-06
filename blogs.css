@@ -122,52 +122,51 @@
         }
 
 
-        .hero {
-            background: url('image/view4.jpg');
-            color: white;
-            padding: 120px 0 80px;
-            margin-top: 120px;
-            background-size: cover;
-            background-position: center;
-            
-            overflow: hidden;
-            background-color: #f9f2e2;
-            min-height: 400px;
-            justify-content: center;
-            display: flex;
-            align-items: center;
-            flex-direction: column; 
-        }
+       .hero {
+    position: relative;
+    color: white;
+    padding: 120px 0 80px;
+    margin-top: 120px;
+    background: url('image/view4.jpg') center/cover no-repeat;
+    overflow: hidden;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
-        .hero-content {
-            position: relative;
-            
-            z-index: 2;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-             /* vertical center */
-            align-items: center;      /* horizontal center */
-            height: 100%;        
-           
-        }
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
 
-        .hero-subtitle {
-            font-size: 1.1rem;
-            margin-bottom: 1rem;
-            opacity: 0.9;
-            
-            font-weight: 300;
-             text-align: center;
-        }
+.hero-content {
+    position: relative;
+    z-index: 2; /* make sure text stays above dark layer */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        .hero-title {
-            font-size: 3.5rem;
-            font-weight: 700;
-            margin-bottom: 2rem;
-            line-height: 1.2;
-        }
+.hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
 
 
         /* Blog Section */
@@ -222,12 +221,14 @@
     height: 200px;
     width: 100%;
     position: relative;
+    
     overflow: hidden;
 }
 
 .blog-image img {
     width: 100%;
     height: 100%;
+    
     object-fit: cover;   /* keeps aspect ratio while filling */
     border-top-left-radius: 12px; 
     border-top-right-radius: 12px;
@@ -319,11 +320,7 @@
             color: #2dd4bf;
         }
 
-        .social-icons {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-        }
+    
 
         .social-icon {
             width: 40px;

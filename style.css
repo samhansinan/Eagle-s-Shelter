@@ -207,107 +207,7 @@
 
        
        
-        /* .hero {
-            background: #f9f2e2;
-            padding: 120px 0 80px;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-        }
-
-        .hero-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-
-        .hero-content h1 {
-            font-size: 48px;
-            font-weight: 700;
-            color: #1f2937;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-
-        .hero-content .tagline-main {
-            font-size: 24px;
-            color: #2dd4bf;
-            font-weight: 600;
-            margin-bottom: 30px;
-        }
-
-        .hero-content p {
-            font-size: 18px;
-            color: #6b7280;
-            margin-bottom: 40px;
-            line-height: 1.8;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 20px;
-        }
-
-        .btn-primary {
-            padding: 15px 30px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 16px;
-            transition: all 0.3s ease;
-        }
-
-       .hero-image {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .hero-image img {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-            object-fit: cover;
-            
-            transition: opacity 1s ease-in-out;
-             opacity: 1;
-        }
-
-        .hero-image img:hover {
-            transform: scale(1.05);
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, #2dd4bf, #06b6d4);
-            color: white;
-            box-shadow: 0 4px 15px rgba(45, 212, 191, 0.3);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(45, 212, 191, 0.4);
-        }
-
-       
-
-        .hero-image {
-            position: relative;
-        }
-
-        .doctor-image {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-        } */
+  
 
        
         .stats {
@@ -469,31 +369,6 @@
             color: #1f2937;
         }
 
-        /* CTA Section */
-        .cta {
-            background: linear-gradient(135deg, #FF7F50, #477ec7);
-            padding: 80px 0;
-            text-align: center;
-            color: white;
-        }
-
-        .cta-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .cta h2 {
-            font-size: 36px;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-
-        .cta p {
-            font-size: 18px;
-            margin-bottom: 40px;
-            opacity: 0.9;
-        }
 
         
 
